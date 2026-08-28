@@ -1,0 +1,7 @@
+id = "truly-zen"
+name = "Truly Zen"
+version = "0.0.1"
+schema_version = 1
+authors = ["Abhinav Sarkar"]
+description = ""
+repository = "https://github.com/your-name/my-zed-extension"
