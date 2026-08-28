@@ -3,5 +3,5 @@ name = "Truly Zen"
 version = "0.0.1"
 schema_version = 1
 authors = ["Abhinav Sarkar"]
-description = ""
-repository = "https://github.com/your-name/my-zed-extension"
+description = "A zed editor theme for total concentration."
+repository = "https://github.com/abhinaaaavvv/truely-zen"
