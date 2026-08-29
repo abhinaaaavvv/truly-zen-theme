@@ -35,7 +35,7 @@ Truly Zen is what happens when you take a pure black canvas and sprinkle in teal
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/abhinaaaavvv/truely-zen.git
+   git clone https://github.com/abhinaaaavvv/truly-zen.git
    ```
 2. Open Zed
 3. Open the command palette with `ctrl+shift+p`
