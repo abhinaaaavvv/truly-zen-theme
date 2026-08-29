@@ -23,7 +23,7 @@ Truly Zen is what happens when you take a pure black canvas and sprinkle in teal
 
 ## Installation
 
-### From the Extension Store (when it's published)
+### From the Extension Store
 
 1. Open Zed
 2. Press `ctrl+shift+x` (or `cmd+shift+x` on macOS) to open Extensions
@@ -35,7 +35,7 @@ Truly Zen is what happens when you take a pure black canvas and sprinkle in teal
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/abhinaaaavvv/truly-zen.git
+   git clone https://github.com/abhinaaaavvv/truly-zen-theme.git
    ```
 2. Open Zed
 3. Open the command palette with `ctrl+shift+p`
