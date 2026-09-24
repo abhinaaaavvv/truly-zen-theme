@@ -4,7 +4,7 @@
 	"author": "Abhinav Sarkar",
 	"themes": [
 		{
-			"name": "Truly Zen Dark",
+			"name": "Truly Zen Dark Italics",
 			"appearance": "dark",
 			"style": {
 				"border": "#17171700",
@@ -198,7 +198,7 @@
 					},
 					"comment": {
 						"color": "#525252ff",
-						"font_style": null,
+						"font_style": "italic",
 						"font_weight": null
 					},
 					"comment.doc": {
@@ -248,7 +248,7 @@
 					},
 					"keyword": {
 						"color": "#FFFFFF",
-						"font_style": null,
+						"font_style": "italic",
 						"font_weight": null
 					},
 					"label": {
@@ -258,7 +258,7 @@
 					},
 					"link_text": {
 						"color": "#737373ff",
-						"font_style": null,
+						"font_style": "italic",
 						"font_weight": null
 					},
 					"link_uri": {
@@ -283,7 +283,7 @@
 					},
 					"predictive": {
 						"color": "#525252ff",
-						"font_style": null,
+						"font_style": "italic",
 						"font_weight": null
 					},
 					"preproc": {
