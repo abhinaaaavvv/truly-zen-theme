@@ -1,6 +1,6 @@
 id = "truly-zen-theme"
 name = "Truly Zen"
-version = "1.0.0"
+version = "1.0.1"
 schema_version = 1
 authors = ["Abhinav Sarkar"]
 description = "A zed editor theme for total concentration."
