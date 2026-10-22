@@ -9,6 +9,7 @@ A Zed editor theme for total concentration. Dark, minimal, and just a little bit
 Truly Zen is what happens when you take a pure black canvas and sprinkle in teal accents like digital tea leaves. It's designed to disappear into the background so you can focus on what actually matters: your code.
 
 **The aesthetic:**
+
 - Pitch black backgrounds (#000000) because why waste pixels?
 - Teal highlights (#14B8A6) that pop without screaming
 - Soft grey text that doesn't strain your eyes at 3am
@@ -16,6 +17,7 @@ Truly Zen is what happens when you take a pure black canvas and sprinkle in teal
 - White keywords for maximum readability
 
 **Two flavors included:**
+
 - **Truly Zen Dark** — the classic experience
 - **Truly Zen Dark Italics** — same zen, but with italics on keywords and comments for extra flow state
 
@@ -83,18 +85,18 @@ For dark/light mode switching:
 
 ## Color Palette
 
-| Element | Color |
-|---------|-------|
-| Background | `#000000` |
-| Editor | `#121212` |
-| Text | `#e5e5e5` |
-| Accent | `#14B8A6` (teal) |
-| Functions | `#9D70FF` (purple) |
-| Types | `#2DD4BF` (cyan) |
-| Keywords | `#F5F5F5` (white, italic) |
-| Comments | `#525252` (grey, italic) |
-| Strings | `#F5F5F5` (white) |
-| Variables | `#a3a3a3` (light grey) |
+| Element    | Color                     |
+| ---------- | ------------------------- |
+| Background | `#000000`                 |
+| Editor     | `#121212`                 |
+| Text       | `#e5e5e5`                 |
+| Accent     | `#14B8A6` (teal)          |
+| Functions  | `#9D70FF` (purple)        |
+| Types      | `#2DD4BF` (cyan)          |
+| Keywords   | `#F5F5F5` (white, italic) |
+| Comments   | `#525252` (grey, italic)  |
+| Strings    | `#F5F5F5` (white)         |
+| Variables  | `#a3a3a3` (light grey)    |
 
 ## Terminal Colors
 
@@ -115,4 +117,4 @@ MIT — use it, modify it, make it your own.
 
 ---
 
-*Made with focus in mind. Now go ship something.* ✨
+_Made with focus in mind. Now go ship something._ ✨
