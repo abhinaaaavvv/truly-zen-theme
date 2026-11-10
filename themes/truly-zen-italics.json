@@ -4,7 +4,7 @@
   "author": "Abhinav Sarkar",
   "themes": [
     {
-      "name": "Truly Zen dark Italics",
+      "name": "Truly Zen Dark Italics",
       "appearance": "dark",
       "style": {
         "border": "#17171700",
@@ -45,11 +45,13 @@
         "tab.inactive_background": "#000000ff",
         "tab.active_background": "#121212ff",
         "search.match_background": "#404040cc",
+        "search.active_match_background": "#14b8a666",
         "panel.background": "#000000ff",
         "panel.focused_border": "#737373ff",
         "pane.focused_border": "#737373ff",
         "scrollbar.thumb.background": "#22222255",
         "scrollbar.thumb.hover_background": "#3d3d3d33",
+        "scrollbar.thumb.active_background": "#3d3d3d33",
         "scrollbar.thumb.border": "#00000000",
         "scrollbar.track.background": "#121212ff",
         "scrollbar.track.border": "#17171700",
@@ -67,6 +69,7 @@
         "editor.active_wrap_guide": "#40404033",
         "editor.document_highlight.read_background": "#40404033",
         "editor.document_highlight.write_background": "#40404066",
+        "editor.code_lens.foreground": "#737373ff",
         "terminal.background": "#000000ff",
         "terminal.foreground": "#e5e5e5ff",
         "terminal.bright_foreground": "#e5e5e5ff",
@@ -99,6 +102,8 @@
         "version_control.added": "#14b8a6ff",
         "version_control.modified": "#aaaaaaff",
         "version_control.deleted": "#9d70ffff",
+        "version_control.word_added": "#14b8a666",
+        "version_control.word_deleted": "#9d70ff66",
         "version_control.conflict_marker.ours": "#14b8a6ff",
         "version_control.conflict_marker.theirs": "#9d70ffff",
         "conflict": "#737373ff",
@@ -151,8 +156,20 @@
         "vim.visual.foreground": "#000000ff",
         "vim.visual_line.background": "#ffffff",
         "vim.visual_line.foreground": "#000000ff",
+        "vim.visual_block.background": "#ffffff",
+        "vim.visual_block.foreground": "#000000ff",
         "vim.replace.background": "#ffffff",
         "vim.replace.foreground": "#000000ff",
+        "vim.helix_select.background": "#ffffff",
+        "vim.helix_select.foreground": "#000000ff",
+        "vim.helix_normal.background": "#000000ff",
+        "vim.helix_normal.foreground": "#70ffe5ff",
+        "editor.diff_hunk.added.background": "#14b8a633",
+        "editor.diff_hunk.added.hollow_background": "#14b8a61a",
+        "editor.diff_hunk.added.hollow_border": "#14b8a666",
+        "editor.diff_hunk.deleted.background": "#9d70ff33",
+        "editor.diff_hunk.deleted.hollow_background": "#9d70ff1a",
+        "editor.diff_hunk.deleted.hollow_border": "#9d70ff66",
         "players": [
           {
             "cursor": "#ffffff",
@@ -194,6 +211,15 @@
             "background": "#6366f1ff",
             "selection": "#6366f11a"
           }
+        ],
+        "accents": [
+          "#14b8a6",
+          "#9d70ff",
+          "#f87171",
+          "#fbbf24",
+          "#60a5fa",
+          "#70ffe5",
+          "#9d70ff"
         ],
         "syntax": {
           "attribute": {
@@ -251,6 +277,16 @@
             "font_style": null,
             "font_weight": 400
           },
+          "function.definition": {
+            "color": "#9d70ffff",
+            "font_style": null,
+            "font_weight": 400
+          },
+          "function.special": {
+            "color": "#9d70ffff",
+            "font_style": null,
+            "font_weight": null
+          },
           "hint": {
             "color": "#525252ff",
             "font_style": null,
@@ -262,6 +298,11 @@
             "font_weight": null
           },
           "label": {
+            "color": "#737373ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
             "color": "#737373ff",
             "font_style": null,
             "font_weight": null
@@ -281,6 +322,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "namespace.crateRoot": {
+            "color": "#d4d4d4ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "number": {
             "color": "#ffffff",
             "font_style": null,
@@ -290,6 +336,11 @@
             "color": "#ffffff",
             "font_style": null,
             "font_weight": null
+          },
+          "operator.controlFlow": {
+            "color": "#ffffff",
+            "font_style": null,
+            "font_weight": 700
           },
           "predictive": {
             "color": "#525252ff",
@@ -391,6 +442,31 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#70ffe5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.interface": {
+            "color": "#70ffe5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.enum": {
+            "color": "#70ffe5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.enum.member": {
+            "color": "#70ffe5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.parameter": {
+            "color": "#70ffe5",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#aaaaaaff",
             "font_style": null,
@@ -412,12 +488,11 @@
         "panel.overlay_hover": "#000000ff",
         "minimap.thumb.background": "#22222255",
         "minimap.thumb.hover_background": "#3d3d3d33",
+        "minimap.thumb.active_background": "#3d3d3d33",
         "minimap.thumb.border": "#00000000",
         "version_control.renamed": "#aaaaaaff",
         "version_control.conflict": "#737373ff",
-        "version_control.ignored": "#737373ff",
-        "scrollbar.thumb.active_background": "#3d3d3d33",
-        "minimap.thumb.active_background": "#3d3d3d33"
+        "version_control.ignored": "#737373ff"
       }
     }
   ],
